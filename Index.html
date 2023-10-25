@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        img {
+            width: 50%;
+            height: 60%;
+        }
+
+        p {
+            margin-inline: 10px;
+        }
+
+        header {
+            width: 100%;
+            height: 80px;
+            background-color: orange;
+            text-align: center;
+            position: fixed;
+            top: 0px;
+            display: inline-block;
+            left: 0px;
+        }
+
+        section {
+            width: 100%;
+            text-align: center;
+            margin-top: 15%;
+        }
+
+        div {
+            height: 100px;
+            width: 90%;
+            background-color: #fed8b1;
+            display: inline-table
+        }
+
+        ul {
+        margin-inline-start: 80.5%;
+        text-align: end;
+        margin-right: 10px;
+        top: 40px;
+        position: fixed;
+        color: transparent;
+        }
+        li {
+            text-decoration: none;
+            background-color:#fed8b1;
+        }
+        a {
+            color: black;
+            text-decoration: none;
+        }
+        .firstSection {
+            margin-top: 10%;
+        }
+        
+        .lastSection {
+            margin-bottom: 10%;
+        }
+
+        .navButton {
+            left: 45%;
+            top: -55px;
+            position: relative;
+            background-color: #fed8b1;
+            border-color: blanchedalmond;
+            border-radius: 0.5rem;
+            height: 30px;
+            width: 30px;
+        }
+        .navigationdiv{
+            background-color:transparent;
+            height:0px ;
+
+        }
+        .firstNavigationLi {
+            border-top-left-radius:0.5rem;
+            border-top-right-radius:0.5rem;
+        }
+        .lastNavigationLi {
+            border-bottom-left-radius:0.5rem;
+            border-bottom-right-radius:0.5rem;
+        }
+
+        .lastDiv {
+            width: 100%;
+            display: inline-block;
+            left: 0px;
+            height: 275px;
+            position: absolute;
+        }
+    </style>
+    <title>TravelWorld</title>
+</head>
+
+<body>
+    <header>
+        <Strong>
+            <h1>
+                TravelWorld
+            </h1>
+            <button onclick="nav()" id="button" class="navButton">=</button>
+            <span id="buttonSpan">
+            </span>
+        </Strong>
+    </header>
+
+    <div id="Inicio" class="navigationdiv"></div>
+
+    <section class="firstSection">
+        <h2>Pacífico Paradise</h2>
+        <img src="https://www.outlooktravelmag.com/media/south-pacific-1-1582550156.profileImage.2x-scaled.webp"
+            title="This is you destination">
+        <div>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, accusamus sequi? Distinctio harum
+                quisquam fugiat facere, sunt nemo dolores? Voluptas in quis numquam! Possimus praesentium aperiam vero
+                autem eum voluptas.</p>
+        </div>
+    </section>
+
+    <div id="Mergulho" class="navigationdiv"></div>
+
+    <section>
+        <h2>Mergulho</h2>
+        <img src="https://pacificislandliving.com/wp-content/uploads/2019/02/T_V_2523a.jpg"
+            alt="This is the sunrise in santorini">
+        <div>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, accusamus sequi? Distinctio harum
+                quisquam fugiat facere, sunt nemo dolores? Voluptas in quis numquam! Possimus praesentium aperiam vero
+                autem eum voluptas.</p>
+        </div>
+    </section>
+
+    <div id="PasseiosBelos" class="navigationdiv"></div>
+
+    <section>
+        <h2>Passeios belos</h2>
+        <img src="https://samoa.travel//Content/SiteResources/PAGE/585/a4482c83-656f-4c63-b25f-5e27c4ea083a/must-see.jpg"
+            alt="This is the sunrise in santorini">
+        <div>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, accusamus sequi? Distinctio harum
+                quisquam fugiat facere, sunt nemo dolores? Voluptas in quis numquam! Possimus praesentium aperiam vero
+                autem eum voluptas.</p>
+        </div>
+    </section>
+
+    <div id="PasseiosBarco" class="navigationdiv"></div>
+
+    <section id="PasseiosBarco">
+        <h2>Passeios de barco</h2>
+        <img src="https://www.visittheusa.com/sites/default/files/styles/state_hero_l/public/images/hero_media_image/2018-04/117c3c2d2b74011e064afd38bdb2ae9a.jpeg?h=e76b0a10&itok=Gmtfc1qV"
+            alt="This is the sunrise in santorini">
+        <div>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, accusamus sequi? Distinctio harum
+                quisquam fugiat facere, sunt nemo dolores? Voluptas in quis numquam! Possimus praesentium aperiam vero
+                autem eum voluptas.</p>
+        </div>
+    </section>
+
+    <div id="Praias" class="navigationdiv"></div>
+
+    <section >
+        <h2 >Praias paradisiacas</h2>
+        <img src="https://assets-global.website-files.com/5fda95cd487da57637f0cbfe/60383be3b2acea79928ae301_intercontinental-bora-bora-thalasso-spa-aerial-view-overwater-villas-24.jpg"
+            alt="This is the sunrise in santorini" >
+        <div>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, accusamus sequi? Distinctio harum
+                quisquam fugiat facere, sunt nemo dolores? Voluptas in quis numquam! Possimus praesentium aperiam vero
+                autem eum voluptas.</p>
+        </div>
+    </section>
+
+    <div id="Hotel" class="navigationdiv"></div>
+
+    <section>
+        <h2>Hotel maravilhoso</h2>
+        <img src="https://www.travelonline.com/news/ten-photos-that-will-make-you-want-to-visit-the-pacific-islands/outrigger-waikiki-beach-resort-31753-ws.jpg"
+            alt="This is the sunrise in santorini">
+        <div>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, accusamus sequi? Distinctio harum
+                quisquam fugiat facere, sunt nemo dolores? Voluptas in quis numquam! Possimus praesentium aperiam vero
+                autem eum voluptas.</p>
+        </div>
+    </section>
+
+    <div id="form" class="navigationdiv"></div>
+
+    <section class="lastSection">
+        <div class="lastDiv">
+            <h2>Entre em contato conosco:</h2>
+            <form>
+                <label for="fnome">Nome:</label><br>
+                <input type="text" id="fnome"><br>
+                <label for="mail">Email:</label><br>
+                <input type="text" id="mail" ><br>
+                <label for="messagem">Mensagem:</label><br>
+                <input type="text" id="messagem" ><br><br>
+                <input type="submit" value="Submit">
+                
+            </form> 
+        </div>
+    </section>
+</body>
+<script>
+    function nav() {
+        var nav = '<ul id="nav"> <li class="firstNavigationLi"><a href="#Inicio">Inicio</a></li> <li><a href="#Mergulho">Mergulho</a></li> <li><a href="#PasseiosBelos">Passeios belos</a></li> <li><a href="#PasseiosBarco">Passeios de barco</a></li> <li><a href="#Praias">Praias</a></li><li><a href="#Hotel">Hotel</a></li> <li class="lastNavigationLi"><a href="#form">contato</a></li> </ul>'
+        var button = document.getElementById('buttonSpan');
+        if(button.children.length == 0){
+            button.innerHTML = nav;
+        }else{
+            button.innerHTML = "";
+        }
+    }
+</script>
+</html>
